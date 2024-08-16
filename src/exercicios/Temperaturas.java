@@ -14,6 +14,9 @@ public class Temperaturas {
         Conversor conversor = new Conversor();
 
         System.out.println("Temperatuda em celcius: " + conversor.converterFahrenheitParaCelcius(fahrenheit));
+
+        scanner.close();
+
     }
 }
 
