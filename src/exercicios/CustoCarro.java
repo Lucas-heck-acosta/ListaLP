@@ -21,7 +21,7 @@ public class CustoCarro {
 }
 
 class Carro {
-    float custo;
+    private float custo;
 
     public  Carro(float custo)
     {
