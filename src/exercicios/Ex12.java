@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class ComparadorDoMaiorNumero {
+public class Ex12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

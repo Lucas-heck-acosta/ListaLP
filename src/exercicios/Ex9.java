@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class CompradorDeMacas {
+public class Ex9 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -13,6 +13,8 @@ public class CompradorDeMacas {
         Feirinha feirinha = new Feirinha();
 
         System.out.println("O total de " + numMacas + " é: " + feirinha.precoDasMacas(numMacas));
+
+        scanner.close();
     }
 }
 

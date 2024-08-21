@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class CustoCarro {
+public class Ex4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,7 +14,7 @@ public class CustoCarro {
         Carro carro = new Carro(custo);
 
         float precoTotal = carro.calcularPreco(distribuidor, impostos);
-        System.out.println("preco final:" + precoTotal);
+        System.out.println("preco final: " + precoTotal);
 
         scanner.close();
     }

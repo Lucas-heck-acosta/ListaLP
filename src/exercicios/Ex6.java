@@ -1,7 +1,7 @@
 package exercicios;
 import java.util.Scanner;
 
-public class Temperaturas {
+public class Ex6 {
     Scanner scanner = new Scanner(System.in);
 
     public  static void  main(String[] args)

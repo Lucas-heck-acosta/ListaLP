@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class OrdenadorDeNumeros {
+public class Ex13 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -2,28 +2,28 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class Salarios {
+public class Ex3 {
     public  static  void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Salario atual: ");
         float salario = scanner.nextFloat();
-        System.out.println("Percentual de aumento: ");
+        System.out.print("Percentual de aumento: ");
         float aumento = scanner.nextFloat();
 
-        Funcinario funcinario = new Funcinario(salario);
+        FuncionarioSalario funcinario = new FuncionarioSalario(salario);
 
 
-        System.out.println("Novo salario com aumento: " + funcinario.aumentarSalario(10));
+        System.out.println("Novo salario com aumento: " + funcinario.aumentarSalario(aumento));
     }
 }
 
 
-class Funcinario {
-    float salario;
+class FuncionarioSalario {
+    private float salario;
 
-    public  Funcinario(float salario)
+    public  FuncionarioSalario(float salario)
     {
         this.salario = salario;
     }

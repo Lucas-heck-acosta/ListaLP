@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class NumerosPositivos {
+public class Ex8 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -13,6 +13,7 @@ public class NumerosPositivos {
         Comparador comparador = new Comparador();
         System.out.print("O numero " + numero + " é " + ((comparador.verificarSePositivo(numero) ? "POSITIVO" : "NEGATIVO")));
 
+        scanner.close();
 
     }
 }

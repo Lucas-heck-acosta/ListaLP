@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class DuracaoDeXadrez {
+public class Ex14 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
