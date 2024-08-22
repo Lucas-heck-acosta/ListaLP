@@ -15,6 +15,7 @@ public class Ex12 {
         ComparadorDeNumeros comparadorDeNumeros = new ComparadorDeNumeros(num1, num2);
 
         comparadorDeNumeros.comparar();
+        scanner.close();
     }
 }
 

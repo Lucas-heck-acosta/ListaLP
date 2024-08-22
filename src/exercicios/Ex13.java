@@ -15,6 +15,8 @@ public class Ex13 {
         Ordenador ordenador = new Ordenador(num1, num2);
 
         ordenador.ordenar();
+
+        scanner.close();
     }
 }
 

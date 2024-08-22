@@ -14,6 +14,8 @@ public class Ex14 {
 
         PartidaXadrez partidaXadrez = new PartidaXadrez(horaInicio, horaFinal);
         System.out.println("A partida durou: " + partidaXadrez.duracaoDaPartida() + " horas!");
+
+        scanner.close();
     }
 }
 
