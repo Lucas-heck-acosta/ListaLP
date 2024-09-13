@@ -27,7 +27,6 @@ public class Ex17 {
         CalculadoraMedias calculadoraMedias = new CalculadoraMedias(p1, e1, e2, api, sub, x);
 
         System.out.println("Media final: " + calculadoraMedias.mediaFinal());
-
         scanner.close();
     }
 }
